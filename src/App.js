@@ -1,11 +1,13 @@
 import React, {component} from 'react';
+import Header from './Header.js';
 
 function App() {
   return (
     <div>
-      <div className="header">
+      {/* <div className="header">
         Phone Directory
-      </div>
+      </div> */}
+      <Header/>
       <button>Add</button>
       <div>
         <span>Name</span><br/>
