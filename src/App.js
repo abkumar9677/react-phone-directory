@@ -1,4 +1,5 @@
-import React, {component} from 'react';
+// import React, {component} from 'react';
+import React from 'react';
 import Header from './Header.js';
 
 function App() {
