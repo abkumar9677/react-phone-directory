@@ -9,7 +9,7 @@ function App() {
         Phone Directory
       </div> */}
       <Header/>
-      <button>Add</button>
+      <button onClick={e => alert("clicked")}>Add</button>
       <div>
         <span>Name</span><br/>
         <span>Phone</span>
