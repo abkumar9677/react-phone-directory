@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
@@ -19,11 +19,11 @@ import reportWebVitals from './reportWebVitals';
 // import './index.css';
 // import App from './App';
 // import registerServiceWorker from './registerServiceWorker';
-import AddSusbscriber from './AddSubscriber';
+//import AddSusbscriber from './AddSubscriber';
 import './common/common.css';
 
 
-ReactDOM.render(<AddSusbscriber />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 
 
